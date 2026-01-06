@@ -3,4 +3,9 @@ name = "sub"
 version = "0.1.0"
 edition = "2024"
 
+description = "A simple crate that sub two numbers"
+license = "MIT"
+repository = "https://github.com/prashant1k99/test-crate-tag"
+
+
 [dependencies]

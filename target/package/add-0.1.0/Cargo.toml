@@ -19,7 +19,10 @@ autobins = false
 autoexamples = false
 autotests = false
 autobenches = false
+description = "A simple crate that adds two numbers"
 readme = false
+license = "MIT"
+repository = "https://github.com/prashant1k99/test-crate-tag"
 resolver = "2"
 
 [lib]
