@@ -2,7 +2,7 @@
 workspace = true
 
 [release]
-no-publish = true
+publish = false
 
 push = true
 tag = true
@@ -14,5 +14,5 @@ commit-message = "Release {{package_name}} version {{version}}"
 
 pre-release-hook = [
   "cargo test --package {{crate_name}}",
-  "cargo doc --no-deps --package {{crate_name}}"
+  "cargo doc --no-deps --package {{crate_name}}",
 ]
