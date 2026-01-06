@@ -1,0 +1,7 @@
+[package]
+name = "test_tag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+add = { git = "https://github.com/prashant1k99/test-crate-tag.git", tag = "add-v0.3.0" }
